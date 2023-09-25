@@ -1,0 +1,45 @@
+/* Custom button styling */
+.hire-me-button {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hire-me-button:hover {
+    background-color: #0056b3; /* Change the button color on hover */
+    transform: scale(1.1); /* Add a subtle scale-up effect on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+/* Custom CSS for navbar */
+.navbar-brand strong {
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-brand strong:hover {
+    color: #ffc107; /* Change color on hover, you can customize this color */
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107; /* Change color on hover, you can customize this color */
+}
+
+.table{
+    margin-top: 50px;
+}
+
+
+.progress-bar {
+    transition: width 1s ease-in-out;
+}
+.progress-bar.animated {
+    animation: scaleWidth 1s ease-in-out;
+}
+@keyframes scaleWidth {
+    0% {
+        width: 0%;
+    }
+}
